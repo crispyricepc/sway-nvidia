@@ -6,6 +6,4 @@ for n in "/usr/share" "/usr/local/share"; do
   [ -f "$n/wlroots-nvidia/wlroots-env.sh" ] && . "$n/wlroots-nvidia/wlroots-env.sh"
 done
 
-exit 1
-
 exec sway --unsupported-gpu
