@@ -18,3 +18,13 @@ install -Dm755 sway-nvidia/sway-nvidia.sh "/usr/local/bin/sway-nvidia"
 install -Dm644 sway-nvidia/sway-nvidia.desktop "/usr/share/wayland-sessions/sway-nvidia.desktop"
 install -Dm644 sway-nvidia/wlroots-env-nvidia.sh "/usr/local/share/wlroots-nvidia/wlroots-env-nvidia.sh"
 ```
+
+## Usage
+
+If starting from a shell, replace your `sway` command with the following:
+
+```sh
+exec sway-nvidia
+```
+
+If you're starting from a display manager, select `Sway (NVIDIA)` from your wayland sessions list
