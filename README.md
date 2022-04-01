@@ -4,7 +4,7 @@ Helper files to make sway a better experience for us poor NVIDIA users.
 
 ## Installation
 
-Currently, this package is only available on ArchLinux via the AUR package `sway-nvidia`.
+Currently, this package is only available on ArchLinux via the AUR package [`sway-nvidia`](https://aur.archlinux.org/packages/sway-nvidia).
 
 If you want to install this on another distro, you can clone and install the files manually
 
