@@ -13,6 +13,6 @@ export MOZ_ENABLE_WAYLAND=1
 export MOZ_USE_XINPUT2=1
 # OpenGL Variables
 export GBM_BACKEND=nvidia-drm
-export __GL_GSYNC_ALLOWED=1
-export __GL_VRR_ALLOWED=1
+export __GL_GSYNC_ALLOWED=0
+export __GL_VRR_ALLOWED=0
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
