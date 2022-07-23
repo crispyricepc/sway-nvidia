@@ -14,9 +14,9 @@ Sway is still required if you're installing. This package doesn't replace sway
 
 ```sh
 git clone https://github.com/crispyricepc/sway-nvidia
-install -Dm755 sway-nvidia/sway-nvidia.sh "/usr/local/bin/sway-nvidia"
-install -Dm644 sway-nvidia/sway-nvidia.desktop "/usr/share/wayland-sessions/sway-nvidia.desktop"
-install -Dm644 sway-nvidia/wlroots-env-nvidia.sh "/usr/local/share/wlroots-nvidia/wlroots-env-nvidia.sh"
+sudo install -Dm755 sway-nvidia/sway-nvidia.sh "/usr/local/bin/sway-nvidia"
+sudo install -Dm644 sway-nvidia/sway-nvidia.desktop "/usr/share/wayland-sessions/sway-nvidia.desktop"
+sudo install -Dm644 sway-nvidia/wlroots-env-nvidia.sh "/usr/local/share/wlroots-nvidia/wlroots-env-nvidia.sh"
 ```
 
 ## Usage
