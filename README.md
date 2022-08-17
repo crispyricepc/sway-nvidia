@@ -4,7 +4,13 @@ Helper files to make sway a better experience for us poor NVIDIA users.
 
 ## Installation
 
-Currently, this package is only available on ArchLinux via the AUR package [`sway-nvidia`](https://aur.archlinux.org/packages/sway-nvidia).
+### Dependencies
+
+`sway` and any proprietary NVIDIA driver is required (although this probably includes their new open kernel modules, I have not tested). It may also be the case that `vulkan-validation-layers` are required to use the vulkan backend.
+
+### AUR Installation
+
+If you're using ArchLinux, the package is available in the AUR as [`sway-nvidia`](https://aur.archlinux.org/packages/sway-nvidia).
 
 If you want to install this on another distro, you can clone and install the files manually
 
@@ -21,10 +27,13 @@ sudo install -Dm644 sway-nvidia/wlroots-env-nvidia.sh "/usr/local/share/wlroots-
 
 ## Usage
 
+### From TTY / Shell
+
 If starting from a shell, replace your `sway` command with the following:
 
 ```sh
 exec sway-nvidia
 ```
+### From a Display Manager
 
 If you're starting from a display manager, select `Sway (NVIDIA)` from your wayland sessions list
