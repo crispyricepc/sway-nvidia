@@ -37,3 +37,9 @@ exec sway-nvidia
 ### From a Display Manager
 
 If you're starting from a display manager, select `Sway (NVIDIA)` from your wayland sessions list
+
+## Known Issues
+
+### Cannot take screenshots
+
+Because we're using the experimental vulkan renderer to avoid graphical issues, screen capture is not yet implemented. The issue is being tracked [here](https://gitlab.freedesktop.org/wlroots/wlroots/-/issues/3290)
