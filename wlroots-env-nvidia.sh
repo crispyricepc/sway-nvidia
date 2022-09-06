@@ -4,8 +4,6 @@
 
 # Hardware cursors not yet working on wlroots
 export WLR_NO_HARDWARE_CURSORS=1
-# Set WLRoots renderer to Vulkan to avoid flickering
-export WLR_RENDERER=vulkan
 # General wayland environment variables
 export XDG_SESSION_TYPE=wayland
 export QT_QPA_PLATFORM=wayland
