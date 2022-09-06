@@ -20,4 +20,5 @@ for n in "/usr/share" "/usr/local/share"; do
   [ -f "$n/wlroots-nvidia/wlroots-env.sh" ] && . "$n/wlroots-nvidia/wlroots-env.sh"
 done
 
-exec sway --unsupported-gpu "$@"
+# noscanout fixes this issue: https://www.reddit.com/r/swaywm/comments/wiq06i/games_have_lines_on_screen_when_fullscreen_on/
+exec sway --unsupported-gpu -D noscanout "$@"
