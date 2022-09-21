@@ -43,3 +43,7 @@ If you're starting from a display manager, select `Sway (NVIDIA)` from your wayl
 ### Cannot take screenshots
 
 Because we're using the experimental vulkan renderer to avoid graphical issues, screen capture is not yet implemented. The issue is being tracked [here](https://gitlab.freedesktop.org/wlroots/wlroots/-/issues/3290)
+
+## See Also
+
+[A discussion on the NVIDIA forums for everyone sharing hacks to getting sway to work](https://forums.developer.nvidia.com/t/nvidia-495-on-sway-tutorial-questions-arch-based-distros/192212). If this package doesn't work on your PC, it's a good idea to see if anyone over there has a similar setup
