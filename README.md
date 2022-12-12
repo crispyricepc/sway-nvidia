@@ -42,7 +42,9 @@ If you're starting from a display manager, select `Sway (NVIDIA)` from your wayl
 
 ### Cannot take screenshots
 
-Because we're using the experimental vulkan renderer to avoid graphical issues, screen capture is not yet implemented. The issue is being tracked [here](https://gitlab.freedesktop.org/wlroots/wlroots/-/issues/3290)
+Because we're using the experimental vulkan renderer to avoid graphical issues, screen capture is not yet implemented on wlroots 0.15. The issue is being tracked [here](https://gitlab.freedesktop.org/wlroots/wlroots/-/issues/3290)
+
+That being said, anyone using `sway-git` & `wlroots-git`, this issue has been fixed in version 0.16
 
 ### glxtest for Firefox hardware acceleration fails
 
