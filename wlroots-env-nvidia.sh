@@ -20,3 +20,5 @@ export __GL_VRR_ALLOWED=0
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 # Xwayland compatibility
 export XWAYLAND_NO_GLAMOR=1
+# JetBrains Idea-based IDEs
+export _JAVA_AWT_WM_NONREPARENTING=1
